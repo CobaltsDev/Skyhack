@@ -9,6 +9,7 @@ function login(){
 }
 for(var i = 0; i < 100; i++){
     try{
+        //do not try certain passwords
         a[step]++;
         if(a[0] == 27){
             a[step] = 0;
